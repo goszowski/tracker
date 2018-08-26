@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tracker Test</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tracker test</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, laboriosam soluta reprehenderit qui enim odio facilis asperiores magnam vitae commodi repellendus cupiditate laborum facere, itaque a quos corporis! Ut, odio.</p>
+
+        <textarea name="" id="" cols="30" rows="10" class="form-control">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam qui cupiditate, ducimus ipsum, repellat in minima sit aliquid officia at commodi consequuntur. Temporibus doloribus at molestiae quisquam, laudantium in praesentium.</textarea>
+
+        <section>
+            <h2>One section</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptate repellat, aspernatur voluptas dolor eos sequi possimus rerum, iusto unde quam officiis perferendis odio nam numquam nihil. Fugit, non hic!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur architecto impedit nulla delectus fugiat ad! Repellendus eum in non quis, unde commodi voluptas repudiandae beatae mollitia iste tenetur harum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas pariatur quisquam harum nostrum beatae! Sed suscipit hic, ipsam nulla iste, atque facilis fuga voluptatum totam veniam soluta dolorum, optio fugiat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis iusto veniam minima ea culpa atque saepe quam cumque optio maiores, itaque consequuntur error, reiciendis debitis vel earum inventore laboriosam.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque id illum explicabo provident doloremque rem, exercitationem a quas, velit dolorem eum? Nam culpa deleniti hic similique sed dolore ipsa reprehenderit.</p>
+        </section>
+
+        <button class="btn btn-primary">Test button</button>
+    
+        <section>
+            <h2>Two section</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptate repellat, aspernatur voluptas dolor eos sequi possimus rerum, iusto unde quam officiis perferendis odio nam numquam nihil. Fugit, non hic!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur architecto impedit nulla delectus fugiat ad! Repellendus eum in non quis, unde commodi voluptas repudiandae beatae mollitia iste tenetur harum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas pariatur quisquam harum nostrum beatae! Sed suscipit hic, ipsam nulla iste, atque facilis fuga voluptatum totam veniam soluta dolorum, optio fugiat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis iusto veniam minima ea culpa atque saepe quam cumque optio maiores, itaque consequuntur error, reiciendis debitis vel earum inventore laboriosam.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque id illum explicabo provident doloremque rem, exercitationem a quas, velit dolorem eum? Nam culpa deleniti hic similique sed dolore ipsa reprehenderit.</p>
+        </section>
+    
+        <section>
+            <h2>Three section</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptate repellat, aspernatur voluptas dolor eos sequi possimus rerum, iusto unde quam officiis perferendis odio nam numquam nihil. Fugit, non hic!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur architecto impedit nulla delectus fugiat ad! Repellendus eum in non quis, unde commodi voluptas repudiandae beatae mollitia iste tenetur harum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas pariatur quisquam harum nostrum beatae! Sed suscipit hic, ipsam nulla iste, atque facilis fuga voluptatum totam veniam soluta dolorum, optio fugiat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis iusto veniam minima ea culpa atque saepe quam cumque optio maiores, itaque consequuntur error, reiciendis debitis vel earum inventore laboriosam.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque id illum explicabo provident doloremque rem, exercitationem a quas, velit dolorem eum? Nam culpa deleniti hic similique sed dolore ipsa reprehenderit.</p>
+        </section>
+    
+        <section>
+            <h2>Next section</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptate repellat, aspernatur voluptas dolor eos sequi possimus rerum, iusto unde quam officiis perferendis odio nam numquam nihil. Fugit, non hic!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur architecto impedit nulla delectus fugiat ad! Repellendus eum in non quis, unde commodi voluptas repudiandae beatae mollitia iste tenetur harum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas pariatur quisquam harum nostrum beatae! Sed suscipit hic, ipsam nulla iste, atque facilis fuga voluptatum totam veniam soluta dolorum, optio fugiat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis iusto veniam minima ea culpa atque saepe quam cumque optio maiores, itaque consequuntur error, reiciendis debitis vel earum inventore laboriosam.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque id illum explicabo provident doloremque rem, exercitationem a quas, velit dolorem eum? Nam culpa deleniti hic similique sed dolore ipsa reprehenderit.</p>
+        </section>
+        
+    </div>
+
+    <script>
+
+        var results = [];
+
+
+        var lastCursorPosition = {
+            'x': 0,
+            'y': 0
+        };
+
+        var lastTrackedTime = {
+            'click': new Date,
+            'mousemove': new Date,
+            'scroll': new Date,
+            'resize': new Date
+        };
+
+        var isMobile = function() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+
+        var track = function(event) {
+            
+            var currentTime = new Date;
+
+            if(currentTime.getTime() - lastTrackedTime[event.type].getTime() >= 100)
+            {
+                lastTrackedTime[event.type] = currentTime;
+                
+                var currentCursorPosition = {
+                    'x': event.clientX !== undefined ? event.clientX : lastCursorPosition.x,
+                    'y': event.clientY !== undefined ? event.clientY : lastCursorPosition.y
+                };
+
+                lastCursorPosition.x = currentCursorPosition.x;
+                lastCursorPosition.y = currentCursorPosition.y;
+
+                results.push({
+                    'event': event.type,
+                    'cursor': {
+                        'x': currentCursorPosition.x,
+                        'y': currentCursorPosition.y
+                    },
+                    'scroll': {
+                        'x': scrollX,
+                        'y': scrollY
+                    },
+                    'window': {
+                        'width': window.innerWidth,
+                        'height': window.innerHeight
+                    },
+                    'isMobile': isMobile(),
+                    'time': currentTime.getTime()
+                });
+
+                // console.log(event.type, currentCursorPosition.x, currentCursorPosition.y, scrollX, scrollY, window.innerWidth, window.innerHeight, isMobile());
+            }
+        }
+
+        document.addEventListener('click', track, false);
+        document.addEventListener('mousemove', track, false);
+        document.addEventListener('scroll', track, false);
+        window.addEventListener('resize', track, false);
+
+        setInterval(function() {
+            console.log(results);
+            results = [];
+        }, 5000);
+    </script>
+</body>
+</html>
